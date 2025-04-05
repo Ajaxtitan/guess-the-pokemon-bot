@@ -1,8 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = "https://www.serebii.net/pokemon/nationalpokedex.shtml"
-data = requests.get(url)
+URL = "https://www.serebii.net/pokemon/nationalpokedex.shtml"
+data = requests.get(URL)
 
 soup = BeautifulSoup(data.content, "html.parser")
 

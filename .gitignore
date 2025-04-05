@@ -1,0 +1,5 @@
+*.env
+/.idea
+/sprite_cache
+/__pycache__
+*~
